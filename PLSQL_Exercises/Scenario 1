@@ -1,3 +1,4 @@
+//Apply 1% Interest Discount for Customers Above 60
 BEGIN
     FOR rec IN (
         SELECT c.customer_id, l.loan_id, l.interest_rate
